@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Genetic Algorithm for N-queens:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Genetic_Algorithm_for_N_queens_jar</output-path>
+    <root id="archive" name="Genetic Algorithm for N-queens.jar">
+      <element id="module-output" name="Genetic Algorithm for N-queens" />
+    </root>
+  </artifact>
+</component>
