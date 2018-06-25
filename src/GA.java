@@ -7,7 +7,7 @@ public class GA {
     final static int MAN_SELECTED_PER_GEN = 300; //MAX SELECTED PER GENERATION
     final static int MIN_SELECTED_PER_GEN = 10;
     final static double MATING_PROBABILITY = 0.6;
-    final static int MAX_GEN = 100;
+    final static int MAX_GEN = 1000;
 
     public static void main(String[] args) {
         System.out.println("Input count of queen");
@@ -35,6 +35,7 @@ public class GA {
                 childs = crossover(childs);
                 System.out.println("POPULATION : " + childs.size());
                 if (gen >= MAX_GEN) {
+                    childs.clear();
                     break;
                 }
             }
