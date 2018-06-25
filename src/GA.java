@@ -65,7 +65,6 @@ public class GA {
         ArrayList<Board> selecedList = new ArrayList<>();
         Collections.sort(list, new CompareBoard());
         ArrayList<Board> newList = new ArrayList<>();
-        //compute root-mean-square error
         float avg = 0;
         for (Board b : list) {
             avg += b.cost;
